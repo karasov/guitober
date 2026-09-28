@@ -487,13 +487,23 @@
  },
  {
   "id": "risha_frog",
-  "name": "Risha",
+  "name": "Marina Trifonova",
   "telegram": "Risha_frog",
   "avatar": "content/avatars/risha_frog.jpg",
-  "link": {
-   "label": "Telegram-канал",
-   "url": "https://t.me/risha_artist"
-  }
+  "links": [
+   {
+    "label": "Telegram-канал",
+    "url": "https://t.me/risha_artist"
+   },
+   {
+    "label": "Behance",
+    "url": "https://www.behance.net/risha_artist"
+   },
+   {
+    "label": "ArtStation",
+    "url": "https://www.artstation.com/risha_artist"
+   }
+  ]
  },
  {
   "id": "saraalekseeva",
