@@ -1,0 +1,6 @@
+content/years/*/works/
+_to_delete/
+edits/
+.DS_Store
+*.token
+github-token*

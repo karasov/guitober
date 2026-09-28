@@ -1,0 +1,48 @@
+{
+  "year": 2026,
+  "title": "GUItober 2026",
+  "dates": "1–31 октября 2026",
+  "status": "upcoming",
+  "color": "#DFD3C0",
+  "colorText": "#1B1B1B",
+  "accent": "#E84427",
+  "font": {
+    "family": "LINE Seed JP",
+    "weight": 400,
+    "fallback": "sans-serif"
+  },
+  "logo": "assets/logo.png",
+  "logoMini": "assets/logo-mini.png",
+  "logoScale": 0.7,
+  "logoBleed": true,
+  "rules": "rules.md",
+  "rulesImages": [],
+  "minPromptsToPublish": 7,
+  "medals": [
+    {
+      "id": "participant",
+      "min": 7,
+      "title": "Попытка засчитана, GUItober 2026",
+      "image": "assets/medals/participant.svg"
+    },
+    {
+      "id": "rare",
+      "min": 16,
+      "title": "Полноценный участник GUItober 2026",
+      "image": "assets/medals/rare.svg"
+    },
+    {
+      "id": "legendary",
+      "min": 27,
+      "title": "Легендарный участник GUItober 2026",
+      "image": "assets/medals/legendary.svg"
+    }
+  ],
+  "medalOverrides": {},
+  "disabledSections": [
+    "days",
+    "participants"
+  ],
+  "rulesAside": "rules-aside.md",
+  "rulesNote": "rules-note.md"
+}

@@ -1,0 +1,104 @@
+{
+  "title": "GUItober",
+  "description": "Архив дизайн-челленджа GUItober — работы участников по годам",
+  "defaultYear": "2025",
+  "years": [
+    "2024",
+    "2025",
+    "2026"
+  ],
+  "languages": [
+    {
+      "code": "ru",
+      "label": "RU",
+      "enabled": true
+    },
+    {
+      "code": "en",
+      "label": "EN",
+      "enabled": false
+    }
+  ],
+  "contacts": {
+    "url": "https://t.me/+B9Z5_wt2rgBiODc0"
+  },
+  "communityChat": {
+    "label": "@gameuiux",
+    "url": "https://t.me/+B9Z5_wt2rgBiODc0"
+  },
+  "footer": {
+    "copyright": "Анатолий Карасов & Game UI/UX Community",
+    "since": 2024,
+    "logos": [
+      {
+        "image": "assets/brand/karasov.svg",
+        "alt": "Анатолий Карасов",
+        "url": "https://karasov.me"
+      },
+      {
+        "image": "assets/brand/gameuiux-green.svg",
+        "alt": "Game UI/UX Community",
+        "url": "https://t.me/gameuiux"
+      }
+    ],
+    "links": [
+      {
+        "label": "Telegram-канал Game UI/UX",
+        "url": "https://t.me/gameuiux"
+      },
+      {
+        "label": "Анатолий Карасов в Telegram",
+        "url": "https://t.me/tolieshebudet"
+      }
+    ]
+  },
+  "ui": {
+    "ru": {
+      "contacts": "Контакты",
+      "nav": {
+        "days": "По дням",
+        "participants": "Участники",
+        "prompts": "Промпты",
+        "rules": "Правила"
+      },
+      "works": [
+        "работа",
+        "работы",
+        "работ"
+      ],
+      "participants": [
+        "участник",
+        "участника",
+        "участников"
+      ],
+      "promptsDone": [
+        "промпт",
+        "промпта",
+        "промптов"
+      ],
+      "promptsFrom": [
+        "промпта",
+        "промптов",
+        "промптов"
+      ],
+      "of": "из",
+      "noWorks": "Работ на этот день нет",
+      "daysTitle": "Все работы участников",
+      "daysSub": "опубликованные во время проведения челленджа в чате сообщества",
+      "promptsTitle": "Список промптов",
+      "rulesTitle": "Правила челленджа",
+      "noWorksDay": "В этот день не было нового промпта — это день, чтобы подбить хвосты. Всё, что публиковалось, относится к прошлым дням.",
+      "upcoming": "Челлендж ещё не начался — работы появятся здесь после старта",
+      "secret": "Секретный промпт",
+      "secretText": "Промпт откроется в день публикации.",
+      "close": "Закрыть",
+      "prev": "Назад",
+      "next": "Вперёд",
+      "prompt": "Промпт",
+      "toPrompt": "Описание промпта",
+      "extra": "Вне промптов",
+      "dates": "Даты",
+      "noPrompt": "Без промпта"
+    }
+  }
+}

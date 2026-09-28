@@ -1,0 +1,251 @@
+[
+  {
+    "day": 1,
+    "title": "Кнопки",
+    "titleEn": "BUTTONS",
+    "text": "prompts/01.md",
+    "image": "prompts/01-sketch.jpg",
+    "source": "telegram:91409"
+  },
+  {
+    "day": 2,
+    "title": "Контролы",
+    "titleEn": "CONTROLS",
+    "text": "prompts/02.md",
+    "image": "prompts/02-sketch.jpg",
+    "source": "telegram:91523"
+  },
+  {
+    "day": 3,
+    "title": "Инпуты",
+    "titleEn": "INPUTS",
+    "text": "prompts/03.md",
+    "image": "prompts/03-sketch.jpg",
+    "source": "telegram:91638"
+  },
+  {
+    "day": 4,
+    "title": "Слайдеры",
+    "titleEn": "SLIDERS",
+    "text": "prompts/04.md",
+    "image": "prompts/04-sketch.jpg",
+    "source": "telegram:91756"
+  },
+  {
+    "day": 5,
+    "title": "Прогресс-бары",
+    "titleEn": "PROGRESS BARS",
+    "text": "prompts/05.md",
+    "image": "prompts/05-sketch.jpg",
+    "source": "telegram:91837"
+  },
+  {
+    "day": 6,
+    "title": "Лоадеры",
+    "titleEn": "LOADERS",
+    "text": "prompts/06.md",
+    "image": "prompts/06-sketch.jpg",
+    "source": "telegram:91869"
+  },
+  {
+    "day": 7,
+    "title": "Контейнеры",
+    "titleEn": "CONTAINERS",
+    "text": "prompts/07.md",
+    "image": "prompts/07-sketch.jpg",
+    "source": "telegram:91905"
+  },
+  {
+    "day": 8,
+    "title": "Плитки",
+    "titleEn": "TILES",
+    "text": "prompts/08.md",
+    "image": "prompts/08-sketch.jpg",
+    "source": "telegram:92034"
+  },
+  {
+    "day": 9,
+    "title": "Теги",
+    "titleEn": "TAGS",
+    "text": "prompts/09.md",
+    "image": "prompts/09-sketch.jpg",
+    "source": "telegram:92177"
+  },
+  {
+    "day": 10,
+    "title": "Бейджи уведомлений",
+    "titleEn": "NOTIFICATION BADGE",
+    "text": "prompts/10.md",
+    "image": "prompts/10-sketch.jpg",
+    "source": "telegram:92234"
+  },
+  {
+    "day": 11,
+    "title": "Ресурсы",
+    "titleEn": "RESOURCES",
+    "text": "prompts/11.md",
+    "image": "prompts/11-sketch.jpg",
+    "source": "telegram:92275"
+  },
+  {
+    "day": 12,
+    "title": "Навигация",
+    "titleEn": "NAVIGATION",
+    "text": "prompts/12.md",
+    "image": "prompts/12-sketch.jpg",
+    "source": "telegram:92419"
+  },
+  {
+    "day": 13,
+    "title": "Мини-карта",
+    "titleEn": "MINIMAP",
+    "text": "prompts/13.md",
+    "image": "prompts/13-sketch.jpg",
+    "source": "telegram:92471"
+  },
+  {
+    "day": 14,
+    "title": "Таргет",
+    "titleEn": "TARGET",
+    "text": "prompts/14.md",
+    "image": "prompts/14-sketch.jpg",
+    "source": "telegram:92521"
+  },
+  {
+    "day": 15,
+    "title": "Блок игрока",
+    "titleEn": "PLAYER BLOCK",
+    "text": "prompts/15.md",
+    "image": "prompts/15-sketch.jpg",
+    "source": "telegram:92573"
+  },
+  {
+    "day": 16,
+    "title": "Игроки",
+    "titleEn": "PLAYERS",
+    "text": "prompts/16.md",
+    "image": "prompts/16-sketch.jpg",
+    "source": "telegram:92709"
+  },
+  {
+    "day": 17,
+    "title": "Таблица",
+    "titleEn": "TABLE",
+    "text": "prompts/17.md",
+    "image": "prompts/17-sketch.jpg",
+    "source": "telegram:92790"
+  },
+  {
+    "day": 18,
+    "title": "Рефакторинг",
+    "titleEn": "REFACTORING",
+    "noWorks": true,
+    "text": "prompts/18.md",
+    "image": "prompts/18.jpg",
+    "source": "telegram:92857"
+  },
+  {
+    "day": 19,
+    "title": "Тултипы",
+    "titleEn": "TOOLTIPS",
+    "text": "prompts/19.md",
+    "image": "prompts/19-sketch.jpg",
+    "source": "telegram:92900"
+  },
+  {
+    "day": 20,
+    "title": "Модальное окно",
+    "titleEn": "WINDOW",
+    "text": "prompts/20.md",
+    "image": "prompts/20-sketch.jpg",
+    "source": "telegram:92908"
+  },
+  {
+    "day": 21,
+    "title": "Скролл-бары",
+    "titleEn": "SCROLL BARS",
+    "text": "prompts/21.md",
+    "image": "prompts/21-sketch.jpg",
+    "source": "telegram:92951"
+  },
+  {
+    "day": 22,
+    "title": "Табы",
+    "titleEn": "TABS",
+    "text": "prompts/22.md",
+    "image": "prompts/22-sketch.jpg",
+    "source": "telegram:93053"
+  },
+  {
+    "day": 23,
+    "title": "Поп-ап Нотифаи",
+    "titleEn": "POP-UP NOTIFY",
+    "text": "prompts/23.md",
+    "image": "prompts/23-sketch.jpg",
+    "source": "telegram:93252"
+  },
+  {
+    "day": 24,
+    "title": "Виджет заданий",
+    "titleEn": "QUEST WIDGET",
+    "text": "prompts/24.md",
+    "image": "prompts/24-sketch.jpg",
+    "source": "telegram:93322"
+  },
+  {
+    "day": 25,
+    "title": "Таймеры",
+    "titleEn": "TIMERS",
+    "text": "prompts/25.md",
+    "image": "prompts/25-sketch.jpg",
+    "source": "telegram:93348"
+  },
+  {
+    "day": 26,
+    "title": "Карточки",
+    "titleEn": "CARDS",
+    "text": "prompts/26.md",
+    "image": "prompts/26-sketch.jpg",
+    "source": "telegram:93370"
+  },
+  {
+    "day": 27,
+    "title": "Чат",
+    "titleEn": "CHAT",
+    "text": "prompts/27.md",
+    "image": "prompts/27-sketch.jpg",
+    "source": "telegram:93403"
+  },
+  {
+    "day": 28,
+    "title": "Статы",
+    "titleEn": "STATS",
+    "text": "prompts/28.md",
+    "image": "prompts/28-sketch.jpg",
+    "source": "telegram:93425"
+  },
+  {
+    "day": 29,
+    "title": "Ачивки",
+    "titleEn": "ACHIEVEMENTS",
+    "text": "prompts/29.md",
+    "image": "prompts/29-sketch.jpg",
+    "source": "telegram:93508"
+  },
+  {
+    "day": 30,
+    "title": "NPC диалог",
+    "titleEn": "NPC DIALOGUE",
+    "text": "prompts/30.md",
+    "image": "prompts/30-sketch.jpg",
+    "source": "telegram:93693"
+  },
+  {
+    "day": 31,
+    "title": "Радиальное меню",
+    "titleEn": "RADIAL MENU",
+    "text": "prompts/31.md",
+    "image": "prompts/31-sketch.jpg",
+    "source": "telegram:93752"
+  }
+]

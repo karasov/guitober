@@ -1,0 +1,62 @@
+{
+  "year": 2024,
+  "title": "GUItober 2024",
+  "dates": "1–31 октября 2024",
+  "status": "archive",
+  "color": "#F7495D",
+  "colorText": "#FFFFFF",
+  "accent": "#F0455A",
+  "font": {
+    "family": "LINE Seed JP",
+    "weight": 400,
+    "fallback": "sans-serif"
+  },
+  "logo": "assets/logo.png",
+  "logoMini": "assets/logo-mini.png",
+  "logoScale": 0.9,
+  "rules": "rules.md",
+  "rulesImages": [
+    "assets/modes.png"
+  ],
+  "minPromptsToPublish": 7,
+  "medals": [
+    {
+      "id": "participant",
+      "min": 7,
+      "title": "Попытка засчитана, GUItober 2024",
+      "image": "assets/medals/participant.png"
+    },
+    {
+      "id": "rare",
+      "min": 16,
+      "title": "Полноценный участник GUItober 2024",
+      "image": "assets/medals/rare.png"
+    },
+    {
+      "id": "legendary",
+      "min": 27,
+      "title": "Легендарный участник GUItober 2024",
+      "image": "assets/medals/legendary.png"
+    }
+  ],
+  "medalOverrides": {
+    "alenaeres": "legendary"
+  },
+  "features": {
+    "alenaeres": {
+      "image": "assets/features/alenaeres-game-ux-kit.jpg",
+      "text": "🎮✨Делюсь своим Game UX Kit! Этот проект созрел в рамках моей небольшой студии и дозрел на нашем челлендже #guitober",
+      "links": [
+        {
+          "label": "Подробнее →",
+          "url": "https://t.me/c/1345286042/96461"
+        },
+        {
+          "label": "Скачать в Figma Community",
+          "url": "https://www.figma.com/community/file/1460785931676185568/game-ux-kit"
+        }
+      ],
+      "imageUrl": "https://www.figma.com/community/file/1460785931676185568/game-ux-kit"
+    }
+  }
+}
