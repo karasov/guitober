@@ -38,7 +38,7 @@
 }
 
 * { box-sizing: border-box; }
-html { scrollbar-gutter: stable; -webkit-text-size-adjust: 100%; }
+html { overflow-x: clip; scrollbar-gutter: stable; -webkit-text-size-adjust: 100%; }
 body {
   margin: 0;
   font-variant-numeric: lining-nums;
@@ -64,6 +64,9 @@ main:focus { outline: none; }
   font: 500 14px/1 var(--sans); letter-spacing: .02em;
   transition: background-color .4s var(--ease), color .4s var(--ease);
 }
+/* in-app browsers (Telegram iOS) draw the page under a translucent header: extend the bar colour upwards
+   so scrolled content doesn't show through above it. The bar is the first element, so nothing is covered. */
+.topbar::before { content: ""; position: absolute; left: 0; right: 0; bottom: 100%; height: 100vh; background: inherit; pointer-events: none; }
 .topbar nav { display: flex; align-items: center; gap: clamp(14px, 2vw, 28px); }
 .topbar a { text-decoration: none; opacity: .7; padding: 14px 0; transition: opacity .2s, background-color .2s, color .2s; }
 .topbar a:hover { opacity: 1; }
@@ -224,7 +227,8 @@ main:focus { outline: none; }
   padding: 7px 12px; border-radius: 999px; background: var(--ink); color: #fff; font-size: 13px; line-height: 1.2;
   white-space: nowrap; pointer-events: none; opacity: 0; transform: translateY(4px); transition: opacity .15s, transform .15s; }
 .medal-hint:hover::after { opacity: 1; transform: none; }
-@media (max-width: 640px) { .medal-hint::after { right: auto; left: 0; } }
+/* touch screens: no hover, so no tooltip (the invisible pill also widened the page on phones) */
+@media (hover: none), (max-width: 640px) { .medal-hint::after { display: none; } }
 .person__score { font-size: 14px; color: var(--muted); }
 .person__score b { display: block; font: var(--dw) clamp(32px, 3.6vw, 56px)/1 var(--display); color: var(--ink); }
 .person__score .mt { display: block; margin-top: 4px; font-size: 13px; color: var(--ink); }
