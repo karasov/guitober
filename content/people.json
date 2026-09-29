@@ -613,12 +613,12 @@
  },
  {
   "id": "uruchala",
-  "name": "Ana",
+  "name": "Anna Bezrukova",
   "telegram": "UruchaLa",
-  "avatar": null,
+  "avatar": "content/avatars/uruchala.jpg",
   "link": {
-   "label": "Портфолио",
-   "url": ""
+   "label": "Behance",
+   "url": "https://www.behance.net/annabezbez"
   }
  },
  {
