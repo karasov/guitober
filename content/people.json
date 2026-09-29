@@ -4,10 +4,16 @@
   "name": "Anastasia Ray",
   "telegram": "A76523k1",
   "avatar": null,
-  "link": {
-   "label": "Портфолио",
-   "url": ""
-  }
+  "links": [
+   {
+    "label": "Behance",
+    "url": "https://www.behance.net/PopkArt"
+   },
+   {
+    "label": "ArtStation",
+    "url": "https://www.artstation.com/nastyaray"
+   }
+  ]
  },
  {
   "id": "agishewa",
@@ -45,8 +51,8 @@
   "telegram": "alena_momo",
   "avatar": null,
   "link": {
-   "label": "Портфолио",
-   "url": ""
+   "label": "Behance",
+   "url": "https://www.behance.net/momoalenapetrova"
   }
  },
  {
@@ -415,8 +421,8 @@
   "telegram": "mgreko",
   "avatar": null,
   "link": {
-   "label": "Портфолио",
-   "url": ""
+   "label": "Сайт",
+   "url": "https://mariyagreko.com"
   }
  },
  {
@@ -671,8 +677,8 @@
   "telegram": "xporcupinex",
   "avatar": null,
   "link": {
-   "label": "Портфолио",
-   "url": ""
+   "label": "Behance",
+   "url": "https://www.behance.net/grin_katrin"
   }
  },
  {
