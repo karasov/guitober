@@ -3,7 +3,7 @@
   "id": "a76523k1",
   "name": "Anastasia Ray",
   "telegram": "A76523k1",
-  "avatar": null,
+  "avatar": "content/avatars/a76523k1.jpg",
   "links": [
    {
     "label": "Behance",
@@ -29,7 +29,7 @@
   "id": "akowasabi",
   "name": "Alym ⚪",
   "telegram": "akowasabi",
-  "avatar": null,
+  "avatar": "content/avatars/akowasabi.jpg",
   "link": {
    "label": "Портфолио",
    "url": ""
@@ -49,7 +49,7 @@
   "id": "alena_momo",
   "name": "Alena Petrova",
   "telegram": "alena_momo",
-  "avatar": null,
+  "avatar": "content/avatars/alena_momo.jpg",
   "link": {
    "label": "Behance",
    "url": "https://www.behance.net/momoalenapetrova"
@@ -109,7 +109,7 @@
   "id": "antonbliznets",
   "name": "Anton Bliznets",
   "telegram": "AntonBliznets",
-  "avatar": null,
+  "avatar": "content/avatars/antonbliznets.jpg",
   "link": {
    "label": "Портфолио",
    "url": ""
@@ -279,7 +279,7 @@
   "id": "hellyeahftw",
   "name": "Yulia",
   "telegram": "hellyeahftw",
-  "avatar": null,
+  "avatar": "content/avatars/hellyeahftw.jpg",
   "link": {
    "label": "Портфолио",
    "url": ""
@@ -299,7 +299,7 @@
   "id": "irinapichugina99",
   "name": "Irina Pichugina",
   "telegram": "IrinaPichugina99",
-  "avatar": null,
+  "avatar": "content/avatars/irinapichugina99.jpg",
   "link": {
    "label": "Портфолио",
    "url": ""
@@ -369,7 +369,7 @@
   "id": "l_arrow",
   "name": "Natalya Bernatskaya",
   "telegram": "L_Arrow",
-  "avatar": null,
+  "avatar": "content/avatars/l_arrow.jpg",
   "link": {
    "label": "Портфолио",
    "url": ""
@@ -419,7 +419,7 @@
   "id": "mgreko",
   "name": "Maria Greko",
   "telegram": "mgreko",
-  "avatar": null,
+  "avatar": "content/avatars/mgreko.jpg",
   "link": {
    "label": "Сайт",
    "url": "https://mariyagreko.com"
@@ -459,7 +459,7 @@
   "id": "paulakali",
   "name": "Polina Kalina",
   "telegram": "PaulaKali",
-  "avatar": null,
+  "avatar": "content/avatars/paulakali.jpg",
   "link": {
    "label": "Портфолио",
    "url": ""
@@ -485,7 +485,7 @@
   "id": "poxalk",
   "name": "Роха",
   "telegram": "poxalk",
-  "avatar": null,
+  "avatar": "content/avatars/poxalk.jpg",
   "link": {
    "label": "Портфолио",
    "url": ""
@@ -675,7 +675,7 @@
   "id": "xporcupinex",
   "name": "Katja",
   "telegram": "xporcupinex",
-  "avatar": null,
+  "avatar": "content/avatars/xporcupinex.jpg",
   "link": {
    "label": "Behance",
    "url": "https://www.behance.net/grin_katrin"
