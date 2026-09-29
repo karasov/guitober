@@ -685,11 +685,14 @@
  },
  {
   "id": "heishell",
-  "name": "Viktoria Kupina",
+  "name": "Виктория Купина",
   "telegram": null,
   "discord": "heishell",
-  "avatar": null,
-  "link": null
+  "avatar": "content/avatars/heishell.jpg",
+  "link": {
+   "label": "ArtStation",
+   "url": "https://www.artstation.com/v-kupina"
+  }
  },
  {
   "id": "lady.almalexia",
