@@ -337,12 +337,12 @@
  },
  {
   "id": "ketura_ad",
-  "name": "Katherine",
+  "name": "Ekaterina Kolesnikova",
   "telegram": "Ketura_ad",
-  "avatar": null,
+  "avatar": "content/avatars/ketura_ad.jpg",
   "link": {
-   "label": "Портфолио",
-   "url": ""
+   "label": "Behance",
+   "url": "https://www.behance.net/ketura"
   }
  },
  {
