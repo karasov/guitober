@@ -93,10 +93,10 @@
   "id": "anshanon",
   "name": "Anastasia Shanon",
   "telegram": "anshanon",
-  "avatar": null,
+  "avatar": "content/avatars/anshanon.jpg",
   "link": {
-   "label": "Портфолио",
-   "url": ""
+   "label": "Ссылки и контакты",
+   "url": "https://linktr.ee/ashavyrova"
   }
  },
  {
