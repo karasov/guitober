@@ -191,12 +191,12 @@
  },
  {
   "id": "evgolvk",
-  "name": "Евгения",
+  "name": "Евгения Гольверк",
   "telegram": "evgolvk",
-  "avatar": null,
+  "avatar": "content/avatars/evgolvk.jpg",
   "link": {
-   "label": "Портфолио",
-   "url": ""
+   "label": "Telegram-канал",
+   "url": "https://t.me/golverk_art"
   }
  },
  {
