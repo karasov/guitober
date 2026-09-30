@@ -33,6 +33,7 @@
   --secbar-h: 52px;
   --logo-ar: 4;
   --logo-scale: 1;
+  --logo-base: clamp(64px, 15vw, 250px);
   --avatar: clamp(72px, 8vw, 128px);   /* participant avatar size; day headings match it */
   --ease: cubic-bezier(.2, .7, .2, 1);
 }
@@ -76,11 +77,13 @@ main:focus { outline: none; }
 .topbar .contact { opacity: .9; }
 
 /* ---------------------------------------------------------------- year head */
+/* desktops (mouse, wide screen): logos 30% smaller; phones and tablets keep the full size */
+@media (min-width: 1024px) and (hover: hover) and (pointer: fine) { :root { --logo-base: calc(clamp(64px, 15vw, 250px) * .7); } }
 .yearhead { padding: clamp(28px, 5vw, 72px) var(--pad) 0; }
 .yearhead__top h1 {
   flex: 1 1 0; min-width: 0; margin: 0;
   /* same block height for every year: the 2024/2025 logo height (base size × .9); other logos are centred in it */
-  height: calc(clamp(64px, 15vw, 250px) * .9);
+  height: calc(var(--logo-base) * .9);
   display: flex; align-items: center;
 }
 /* logo bleeds to the left page edge (year.json → logoBleed) */
@@ -89,7 +92,7 @@ main:focus { outline: none; }
 /* logo: former size (15vw tall, max 250px, never wider than the page) × per-year logoScale */
 .yearhead__logo {
   display: block; height: auto; max-width: 100%;
-  width: max(min(100%, 150px), calc(min(100%, clamp(64px, 15vw, 250px) * var(--logo-ar)) * var(--logo-scale)));
+  width: max(min(100%, 150px), calc(min(100%, var(--logo-base) * var(--logo-ar)) * var(--logo-scale)));
 }
 .yearhead__meta { font-size: 14px; color: var(--muted); line-height: 1.6; padding-bottom: 6px; }
 .yearhead__meta b { color: var(--ink); font-weight: 500; }
