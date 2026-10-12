@@ -84,7 +84,10 @@
       authors.push({ id, person, count, days: a.days, works: a.works, medal, published });
     }
     // rank: participants first, then everybody else; more prompts first; stable tie-break by name, then id
-    authors.sort((a, b) => (b.published - a.published) || b.count - a.count || collator.compare(a.person.name, b.person.name) || a.id.localeCompare(b.id));
+    // year.json → rankOrder: manual order among authors with the same number of prompts
+    const ro = cfg.rankOrder || [];
+    const roi = id => { const i = ro.indexOf(id); return i < 0 ? 1e9 : i; };
+    authors.sort((a, b) => (b.published - a.published) || b.count - a.count || roi(a.id) - roi(b.id) || collator.compare(a.person.name, b.person.name) || a.id.localeCompare(b.id));
     authors.forEach((p, i) => { p.order = i; });
     const participants = authors.filter(a => a.published);
     participants.forEach((p, i) => { p.rank = i + 1; });

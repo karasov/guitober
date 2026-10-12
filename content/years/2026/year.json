@@ -41,5 +41,10 @@
   "medalOverrides": {},
   "rulesAside": "rules-aside.md",
   "rulesNote": "rules-note.md",
-  "keepOriginalVideo": true
+  "keepOriginalVideo": true,
+  "rankOrder": [
+    "nzr99",
+    "uxzavr",
+    "aelante"
+  ]
 }
