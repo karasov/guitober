@@ -19,7 +19,7 @@
   "id": "aelante",
   "name": "Alina L.",
   "telegram": "aelante",
-  "avatar": null,
+  "avatar": "content/avatars/aelante.jpg",
   "link": {
    "label": "Портфолио",
    "url": ""
@@ -137,7 +137,7 @@
   "id": "asya_naumka",
   "name": "Ася",
   "telegram": "Asya_Naumka",
-  "avatar": null,
+  "avatar": "content/avatars/asya_naumka.jpg",
   "link": {
    "label": "Портфолио",
    "url": ""
@@ -147,7 +147,7 @@
   "id": "charnota",
   "name": "Igor Khen",
   "telegram": "charnota",
-  "avatar": null,
+  "avatar": "content/avatars/charnota.jpg",
   "link": {
    "label": "ArtStation",
    "url": "https://charnota.artstation.com/"
@@ -247,7 +247,7 @@
   "id": "fex_pex",
   "name": "Смирнова Надежда",
   "telegram": "fex_pex",
-  "avatar": null,
+  "avatar": "content/avatars/fex_pex.jpg",
   "link": {
    "label": "Telegram-канал",
    "url": "https://t.me/ComfortZoneFexPex"
@@ -277,7 +277,7 @@
   "id": "godivaelbe",
   "name": "Godiva",
   "telegram": "godivaelbe",
-  "avatar": null,
+  "avatar": "content/avatars/godivaelbe.jpg",
   "link": {
    "label": "Портфолио",
    "url": ""
@@ -338,7 +338,7 @@
   "id": "helena_lenn",
   "name": "Lena",
   "telegram": "Helena_lenn",
-  "avatar": null,
+  "avatar": "content/avatars/helena_lenn.jpg",
   "link": {
    "label": "Портфолио",
    "url": ""
@@ -438,7 +438,7 @@
   "id": "kvazizu",
   "name": "Natasha Redrugina",
   "telegram": "kvazizu",
-  "avatar": null,
+  "avatar": "content/avatars/kvazizu.jpg",
   "link": {
    "label": "Портфолио",
    "url": ""
@@ -496,7 +496,7 @@
   "id": "lilitbysatellite",
   "name": "Лилия Халиуллина",
   "telegram": "Lilitbysatellite",
-  "avatar": null,
+  "avatar": "content/avatars/lilitbysatellite.jpg",
   "link": {
    "label": "Портфолио",
    "url": ""
@@ -514,7 +514,7 @@
   "id": "mar1av1rko",
   "name": "Maria",
   "telegram": "mar1av1rko",
-  "avatar": null,
+  "avatar": "content/avatars/mar1av1rko.jpg",
   "link": {
    "label": "Портфолио",
    "url": ""
@@ -572,7 +572,7 @@
   "id": "mrxses",
   "name": "Mr X",
   "telegram": "mrxses",
-  "avatar": null,
+  "avatar": "content/avatars/mrxses.jpg",
   "link": {
    "label": "Портфолио",
    "url": ""
@@ -582,7 +582,7 @@
   "id": "nzr99",
   "name": "Denis Nazarov",
   "telegram": "NZR99",
-  "avatar": null,
+  "avatar": "content/avatars/nzr99.jpg",
   "link": {
    "label": "Telegram-канал",
    "url": "https://t.me/nzrdsgn"
@@ -602,7 +602,7 @@
   "id": "oishogames",
   "name": "Виктор Кобзев",
   "telegram": "oishogames",
-  "avatar": null,
+  "avatar": "content/avatars/oishogames.jpg",
   "link": {
    "label": "Портфолио",
    "url": ""
@@ -612,7 +612,7 @@
   "id": "oksa_fiction",
   "name": "Oksa Levchenko",
   "telegram": "Oksa_fiction",
-  "avatar": null,
+  "avatar": "content/avatars/oksa_fiction.jpg",
   "link": {
    "label": "Портфолио",
    "url": ""
@@ -677,7 +677,7 @@
   "id": "raxxxma",
   "name": "Egor R",
   "telegram": "raxxxma",
-  "avatar": null,
+  "avatar": "content/avatars/raxxxma.jpg",
   "link": {
    "label": "Behance",
    "url": "https://www.behance.net/raxma"
@@ -725,7 +725,7 @@
   "id": "send_nodes",
   "name": "Vlad Svolochenko",
   "telegram": "send_nodes",
-  "avatar": null,
+  "avatar": "content/avatars/send_nodes.jpg",
   "link": {
    "label": "Портфолио",
    "url": ""
@@ -835,7 +835,7 @@
   "id": "uxzavr",
   "name": "METAzavr",
   "telegram": "UXzavr",
-  "avatar": null,
+  "avatar": "content/avatars/uxzavr.jpg",
   "link": {
    "label": "Портфолио",
    "url": ""
@@ -875,7 +875,7 @@
   "id": "viknm",
   "name": "nnnavi_art",
   "telegram": "viknm",
-  "avatar": null,
+  "avatar": "content/avatars/viknm.jpg",
   "link": {
    "label": "Telegram-канал",
    "url": "https://t.me/nnnavi_art"
@@ -895,7 +895,7 @@
   "id": "wafflelios",
   "name": "wafflelios",
   "telegram": "wafflelios",
-  "avatar": null,
+  "avatar": "content/avatars/wafflelios.jpg",
   "link": {
    "label": "Портфолио",
    "url": ""
@@ -915,7 +915,7 @@
   "id": "xeniasusarova",
   "name": "Ксения Сусарова",
   "telegram": "XeniaSusarova",
-  "avatar": null,
+  "avatar": "content/avatars/xeniasusarova.jpg",
   "link": {
    "label": "Портфолио",
    "url": ""
@@ -935,7 +935,7 @@
   "id": "yara_braun",
   "name": "Просто Яра",
   "telegram": "yara_braun",
-  "avatar": null,
+  "avatar": "content/avatars/yara_braun.jpg",
   "link": {
    "label": "Портфолио",
    "url": ""
@@ -945,7 +945,7 @@
   "id": "zeitzermania",
   "name": "zeitzermania",
   "telegram": "zeitzermania",
-  "avatar": null,
+  "avatar": "content/avatars/zeitzermania.jpg",
   "link": {
    "label": "Портфолио",
    "url": ""
@@ -963,7 +963,7 @@
   "id": "zuzuzaki",
   "name": "Kirito",
   "telegram": "ZuzuZaki",
-  "avatar": null,
+  "avatar": "content/avatars/zuzuzaki.jpg",
   "link": {
    "label": "Портфолио",
    "url": ""
