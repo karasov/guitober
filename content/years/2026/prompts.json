@@ -1,75 +1,83 @@
 [
   {
     "day": 1,
-    "title": "Harry Potter",
+    "title": "Гарри Поттер",
     "titleEn": "HARRY POTTER",
-    "text": null,
-    "image": null
+    "text": "prompts/01.md",
+    "image": "prompts/01.jpg",
+    "source": "telegram:118424"
   },
   {
     "day": 2,
-    "title": "Star Wars",
+    "title": "Звёздные войны",
     "titleEn": "STAR WARS",
-    "text": null,
-    "image": null
+    "text": "prompts/02.md",
+    "image": "prompts/02.jpg",
+    "source": "telegram:118513"
   },
   {
     "day": 3,
-    "title": "",
-    "titleEn": "",
-    "text": null,
-    "image": null,
-    "secret": true
+    "title": "Симпсоны",
+    "titleEn": "THE SIMPSONS",
+    "text": "prompts/03.md",
+    "image": "prompts/03.jpg",
+    "source": "telegram:118628"
   },
   {
     "day": 4,
-    "title": "Dune",
+    "title": "Дюна",
     "titleEn": "DUNE",
-    "text": null,
-    "image": null
+    "text": "prompts/04.md",
+    "image": "prompts/04.jpg",
+    "source": "telegram:118685"
   },
   {
     "day": 5,
-    "title": "James Bond",
+    "title": "Джеймс Бонд",
     "titleEn": "JAMES BOND",
-    "text": null,
-    "image": null
+    "text": "prompts/05.md",
+    "image": "prompts/05.jpg",
+    "source": "telegram:118714"
   },
   {
     "day": 6,
     "title": "Gorillaz",
     "titleEn": "GORILLAZ",
-    "text": null,
-    "image": null
+    "text": "prompts/06.md",
+    "image": "prompts/06.jpg",
+    "source": "telegram:118791"
   },
   {
     "day": 7,
-    "title": "The Matrix",
+    "title": "Матрица",
     "titleEn": "THE MATRIX",
-    "text": null,
-    "image": null
+    "text": "prompts/07.md",
+    "image": "prompts/07.jpg",
+    "source": "telegram:118846"
   },
   {
     "day": 8,
-    "title": "Spirited Away",
+    "title": "Унесённые Призраками",
     "titleEn": "SPIRITED AWAY",
-    "text": null,
-    "image": null
+    "text": "prompts/08.md",
+    "image": "prompts/08.jpg",
+    "source": "telegram:118882"
   },
   {
     "day": 9,
-    "title": "Ghostbusters",
+    "title": "Охотники за Привидениями",
     "titleEn": "GHOSTBUSTERS",
-    "text": null,
-    "image": null
+    "text": "prompts/09.md",
+    "image": "prompts/09.jpg",
+    "source": "telegram:118930"
   },
   {
     "day": 10,
-    "title": "",
-    "titleEn": "",
-    "text": null,
-    "image": null,
-    "secret": true
+    "title": "Наруто",
+    "titleEn": "NARUTO",
+    "text": "prompts/10.md",
+    "image": "prompts/10.jpg",
+    "source": "telegram:118988"
   },
   {
     "day": 11,

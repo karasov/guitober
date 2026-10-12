@@ -2,7 +2,7 @@
   "year": 2026,
   "title": "GUItober 2026",
   "dates": "1–31 октября 2026",
-  "status": "upcoming",
+  "status": "ongoing",
   "color": "#DFD3C0",
   "colorText": "#1B1B1B",
   "accent": "#E84427",
@@ -23,26 +23,23 @@
       "id": "participant",
       "min": 7,
       "title": "Попытка засчитана, GUItober 2026",
-      "image": "assets/medals/participant.svg"
+      "image": "assets/medals/participant.png"
     },
     {
       "id": "rare",
       "min": 16,
       "title": "Полноценный участник GUItober 2026",
-      "image": "assets/medals/rare.svg"
+      "image": "assets/medals/rare.png"
     },
     {
       "id": "legendary",
       "min": 27,
       "title": "Легендарный участник GUItober 2026",
-      "image": "assets/medals/legendary.svg"
+      "image": "assets/medals/legendary.png"
     }
   ],
   "medalOverrides": {},
-  "disabledSections": [
-    "days",
-    "participants"
-  ],
   "rulesAside": "rules-aside.md",
-  "rulesNote": "rules-note.md"
+  "rulesNote": "rules-note.md",
+  "keepOriginalVideo": true
 }

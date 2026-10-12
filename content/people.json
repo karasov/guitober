@@ -16,6 +16,16 @@
   ]
  },
  {
+  "id": "aelante",
+  "name": "Alina L.",
+  "telegram": "aelante",
+  "avatar": null,
+  "link": {
+   "label": "Портфолио",
+   "url": ""
+  }
+ },
+ {
   "id": "agishewa",
   "name": "Arty🩷m",
   "telegram": "Agishewa",
@@ -76,6 +86,14 @@
   }
  },
  {
+  "id": "alisa7237",
+  "name": "Alisa",
+  "telegram": null,
+  "discord": "alisa7237",
+  "avatar": null,
+  "link": null
+ },
+ {
   "id": "alleksat",
   "name": "Alleksat",
   "telegram": "Alleksat",
@@ -113,6 +131,26 @@
   "link": {
    "label": "Портфолио",
    "url": ""
+  }
+ },
+ {
+  "id": "asya_naumka",
+  "name": "Ася",
+  "telegram": "Asya_Naumka",
+  "avatar": null,
+  "link": {
+   "label": "Портфолио",
+   "url": ""
+  }
+ },
+ {
+  "id": "charnota",
+  "name": "Igor Khen",
+  "telegram": "charnota",
+  "avatar": null,
+  "link": {
+   "label": "ArtStation",
+   "url": "https://charnota.artstation.com/"
   }
  },
  {
@@ -206,6 +244,16 @@
   }
  },
  {
+  "id": "fex_pex",
+  "name": "Смирнова Надежда",
+  "telegram": "fex_pex",
+  "avatar": null,
+  "link": {
+   "label": "Telegram-канал",
+   "url": "https://t.me/ComfortZoneFexPex"
+  }
+ },
+ {
   "id": "forever_lizon",
   "name": "Лиза | о прикорме",
   "telegram": "forever_lizon",
@@ -229,6 +277,16 @@
   "id": "godivaelbe",
   "name": "Godiva",
   "telegram": "godivaelbe",
+  "avatar": null,
+  "link": {
+   "label": "Портфолио",
+   "url": ""
+  }
+ },
+ {
+  "id": "goodbayse",
+  "name": "Аве",
+  "telegram": "GoodBayse",
   "avatar": null,
   "link": {
    "label": "Портфолио",
@@ -263,6 +321,17 @@
   "link": {
    "label": "Портфолио",
    "url": ""
+  }
+ },
+ {
+  "id": "heishell",
+  "name": "Viktoria Kupina",
+  "telegram": null,
+  "discord": "heishell",
+  "avatar": "content/avatars/heishell.jpg",
+  "link": {
+   "label": "ArtStation",
+   "url": "https://www.artstation.com/v-kupina"
   }
  },
  {
@@ -356,6 +425,16 @@
   }
  },
  {
+  "id": "kompoticus",
+  "name": "Elena",
+  "telegram": "kompoticus",
+  "avatar": null,
+  "link": {
+   "label": "Портфолио",
+   "url": ""
+  }
+ },
+ {
   "id": "kvazizu",
   "name": "Natasha Redrugina",
   "telegram": "kvazizu",
@@ -396,9 +475,45 @@
   ]
  },
  {
+  "id": "lady.almalexia",
+  "name": "Polina P.",
+  "telegram": null,
+  "discord": "lady.almalexia",
+  "avatar": null,
+  "link": null
+ },
+ {
   "id": "lastedge",
   "name": "Alexey",
   "telegram": "LastEdge",
+  "avatar": null,
+  "link": {
+   "label": "Портфолио",
+   "url": ""
+  }
+ },
+ {
+  "id": "lilitbysatellite",
+  "name": "Лилия Халиуллина",
+  "telegram": "Lilitbysatellite",
+  "avatar": null,
+  "link": {
+   "label": "Портфолио",
+   "url": ""
+  }
+ },
+ {
+  "id": "liona",
+  "name": "Liona",
+  "telegram": null,
+  "discord": "liona",
+  "avatar": null,
+  "link": null
+ },
+ {
+  "id": "mar1av1rko",
+  "name": "Maria",
+  "telegram": "mar1av1rko",
   "avatar": null,
   "link": {
    "label": "Портфолио",
@@ -426,6 +541,14 @@
   }
  },
  {
+  "id": "milanholia1304",
+  "name": "milanholia",
+  "telegram": null,
+  "discord": "milanholia1304",
+  "avatar": null,
+  "link": null
+ },
+ {
   "id": "monsterickis",
   "name": "Айкис",
   "telegram": "monsterickis",
@@ -446,9 +569,49 @@
   }
  },
  {
+  "id": "mrxses",
+  "name": "Mr X",
+  "telegram": "mrxses",
+  "avatar": null,
+  "link": {
+   "label": "Портфолио",
+   "url": ""
+  }
+ },
+ {
+  "id": "nzr99",
+  "name": "Denis Nazarov",
+  "telegram": "NZR99",
+  "avatar": null,
+  "link": {
+   "label": "Telegram-канал",
+   "url": "https://t.me/nzrdsgn"
+  }
+ },
+ {
   "id": "odi_fluttershy",
   "name": "Екатерина",
   "telegram": "odi_fluttershy",
+  "avatar": null,
+  "link": {
+   "label": "Портфолио",
+   "url": ""
+  }
+ },
+ {
+  "id": "oishogames",
+  "name": "Виктор Кобзев",
+  "telegram": "oishogames",
+  "avatar": null,
+  "link": {
+   "label": "Портфолио",
+   "url": ""
+  }
+ },
+ {
+  "id": "oksa_fiction",
+  "name": "Oksa Levchenko",
+  "telegram": "Oksa_fiction",
   "avatar": null,
   "link": {
    "label": "Портфолио",
@@ -463,6 +626,25 @@
   "link": {
    "label": "Портфолио",
    "url": ""
+  }
+ },
+ {
+  "id": "pesovik2018",
+  "name": "Snezhana Pesovik",
+  "telegram": null,
+  "discord": "pesovik2018",
+  "avatar": null,
+  "link": null
+ },
+ {
+  "id": "petriikor",
+  "name": "Eliza Baiyshova",
+  "telegram": null,
+  "discord": "petriikor",
+  "avatar": "content/avatars/petriikor.jpg",
+  "link": {
+   "label": "Behance",
+   "url": "https://www.behance.net/elizabayishova"
   }
  },
  {
@@ -492,6 +674,16 @@
   }
  },
  {
+  "id": "raxxxma",
+  "name": "Egor R",
+  "telegram": "raxxxma",
+  "avatar": null,
+  "link": {
+   "label": "Behance",
+   "url": "https://www.behance.net/raxma"
+  }
+ },
+ {
   "id": "risha_frog",
   "name": "Marina Trifonova",
   "telegram": "Risha_frog",
@@ -512,9 +704,27 @@
   ]
  },
  {
+  "id": "romund",
+  "name": "Роман",
+  "telegram": null,
+  "discord": "romund",
+  "avatar": null,
+  "link": null
+ },
+ {
   "id": "saraalekseeva",
   "name": "Sara Alekseeva",
   "telegram": "SaraAlekseeva",
+  "avatar": null,
+  "link": {
+   "label": "Портфолио",
+   "url": ""
+  }
+ },
+ {
+  "id": "send_nodes",
+  "name": "Vlad Svolochenko",
+  "telegram": "send_nodes",
   "avatar": null,
   "link": {
    "label": "Портфолио",
@@ -622,9 +832,19 @@
   }
  },
  {
+  "id": "uxzavr",
+  "name": "METAzavr",
+  "telegram": "UXzavr",
+  "avatar": null,
+  "link": {
+   "label": "Портфолио",
+   "url": ""
+  }
+ },
+ {
   "id": "valentine",
   "name": "Valentine",
-  "telegram": "Valentine",
+  "telegram": null,
   "avatar": null,
   "link": {
    "label": "Портфолио",
@@ -652,9 +872,29 @@
   }
  },
  {
+  "id": "viknm",
+  "name": "nnnavi_art",
+  "telegram": "viknm",
+  "avatar": null,
+  "link": {
+   "label": "Telegram-канал",
+   "url": "https://t.me/nnnavi_art"
+  }
+ },
+ {
   "id": "vladimirlupinskiy",
   "name": "Vladimir L",
   "telegram": "VladimirLupinskiy",
+  "avatar": null,
+  "link": {
+   "label": "Портфолио",
+   "url": ""
+  }
+ },
+ {
+  "id": "wafflelios",
+  "name": "wafflelios",
+  "telegram": "wafflelios",
   "avatar": null,
   "link": {
    "label": "Портфолио",
@@ -672,6 +912,16 @@
   }
  },
  {
+  "id": "xeniasusarova",
+  "name": "Ксения Сусарова",
+  "telegram": "XeniaSusarova",
+  "avatar": null,
+  "link": {
+   "label": "Портфолио",
+   "url": ""
+  }
+ },
+ {
   "id": "xporcupinex",
   "name": "Katja",
   "telegram": "xporcupinex",
@@ -682,74 +932,24 @@
   }
  },
  {
-  "id": "alisa7237",
-  "name": "Alisa",
-  "telegram": null,
-  "discord": "alisa7237",
+  "id": "yara_braun",
+  "name": "Просто Яра",
+  "telegram": "yara_braun",
   "avatar": null,
-  "link": null
- },
- {
-  "id": "heishell",
-  "name": "Viktoria Kupina",
-  "telegram": null,
-  "discord": "heishell",
-  "avatar": "content/avatars/heishell.jpg",
   "link": {
-   "label": "ArtStation",
-   "url": "https://www.artstation.com/v-kupina"
+   "label": "Портфолио",
+   "url": ""
   }
  },
  {
-  "id": "lady.almalexia",
-  "name": "Polina P.",
-  "telegram": null,
-  "discord": "lady.almalexia",
+  "id": "zeitzermania",
+  "name": "zeitzermania",
+  "telegram": "zeitzermania",
   "avatar": null,
-  "link": null
- },
- {
-  "id": "liona",
-  "name": "Liona",
-  "telegram": null,
-  "discord": "liona",
-  "avatar": null,
-  "link": null
- },
- {
-  "id": "milanholia1304",
-  "name": "milanholia",
-  "telegram": null,
-  "discord": "milanholia1304",
-  "avatar": null,
-  "link": null
- },
- {
-  "id": "pesovik2018",
-  "name": "Snezhana Pesovik",
-  "telegram": null,
-  "discord": "pesovik2018",
-  "avatar": null,
-  "link": null
- },
- {
-  "id": "petriikor",
-  "name": "Eliza Baiyshova",
-  "telegram": null,
-  "discord": "petriikor",
-  "avatar": "content/avatars/petriikor.jpg",
   "link": {
-   "label": "Behance",
-   "url": "https://www.behance.net/elizabayishova"
+   "label": "Портфолио",
+   "url": ""
   }
- },
- {
-  "id": "romund",
-  "name": "Роман",
-  "telegram": null,
-  "discord": "romund",
-  "avatar": null,
-  "link": null
  },
  {
   "id": "zellrem",
@@ -758,5 +958,15 @@
   "discord": "zellrem",
   "avatar": null,
   "link": null
+ },
+ {
+  "id": "zuzuzaki",
+  "name": "Kirito",
+  "telegram": "ZuzuZaki",
+  "avatar": null,
+  "link": {
+   "label": "Портфолио",
+   "url": ""
+  }
  }
 ]

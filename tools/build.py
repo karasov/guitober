@@ -89,9 +89,23 @@ def probe(path):
 def do_video(job):
     # temp files live in the system temp dir; results are copied in place
     # (works on folders where deleting/renaming files is not allowed)
-    src, out_v, out_t = job
+    src, out_v, out_t = job[:3]
+    keep = len(job) > 3 and job[3]   # year.json → keepOriginalVideo: no re-encoding, original quality
     os.makedirs(os.path.dirname(out_v), exist_ok=True)
     with tempfile.TemporaryDirectory() as tmpd:
+        if not fresh(src, out_v) and keep:
+            tmp = os.path.join(tmpd, 'v.mp4')
+            if src.lower().endswith('.gif'):
+                # a gif has to become a video, but keep its full size and quality
+                subprocess.run(['ffmpeg', '-y', '-v', 'error', '-i', src,
+                                '-vf', "scale='trunc(iw/2)*2':'trunc(ih/2)*2',format=yuv420p",
+                                '-c:v', 'libx264', '-preset', 'slow', '-crf', '16',
+                                '-movflags', '+faststart', tmp], check=True)
+            else:
+                # same streams, only re-wrapped into mp4 (lossless)
+                subprocess.run(['ffmpeg', '-y', '-v', 'error', '-i', src, '-map', '0:v:0', '-map', '0:a?',
+                                '-c', 'copy', '-movflags', '+faststart', tmp], check=True)
+            shutil.copyfile(tmp, out_v)
         if not fresh(src, out_v):
             tmp = os.path.join(tmpd, 'v.mp4')
             subprocess.run(['ffmpeg', '-y', '-v', 'error', '-i', src,
@@ -169,7 +183,7 @@ def build(media=True):
             elif ext in VID_EXT:
                 v, t = mbase + '.mp4', mbase + '.t.webp'
                 item.update(type='video', thumb=rel(t), video=rel(v))
-                vid_jobs.append((src, v, t))
+                vid_jobs.append((src, v, t, bool(cfg.get('keepOriginalVideo'))))
             else:
                 continue
             work_refs.append((src, item))
