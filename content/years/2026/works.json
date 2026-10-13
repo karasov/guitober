@@ -171,15 +171,6 @@
   "source": "telegram:118516"
  },
  {
-  "id": "2026-mrxses-02",
-  "author": "mrxses",
-  "file": "works/mrxses/mrxses_01_2.jpg",
-  "days": [
-   1
-  ],
-  "source": "telegram:118517"
- },
- {
   "id": "2026-fex_pex-01",
   "author": "fex_pex",
   "file": "works/fex_pex/fex_pex_01.jpg",
@@ -193,7 +184,7 @@
   "author": "wafflelios",
   "file": "works/wafflelios/wafflelios_02.jpg",
   "days": [
-   2
+   1
   ],
   "source": "telegram:118540"
  },
@@ -288,20 +279,11 @@
   "source": "telegram:118593"
  },
  {
-  "id": "2026-goodbayse-02",
-  "author": "goodbayse",
-  "file": "works/GoodBayse/GoodBayse_01_2.jpg",
-  "days": [
-   1
-  ],
-  "source": "telegram:118594"
- },
- {
   "id": "2026-raxxxma-01",
   "author": "raxxxma",
   "file": "works/raxxxma/raxxxma_02.jpg",
   "days": [
-   2
+   1
   ],
   "source": "telegram:118595"
  },
@@ -549,15 +531,6 @@
   "source": "telegram:118677"
  },
  {
-  "id": "2026-goodbayse-04",
-  "author": "goodbayse",
-  "file": "works/GoodBayse/GoodBayse_02_2.jpg",
-  "days": [
-   2
-  ],
-  "source": "telegram:118678"
- },
- {
   "id": "2026-aelante-03",
   "author": "aelante",
   "file": "works/aelante/aelante_03_1.jpg",
@@ -598,7 +571,7 @@
   "author": "vasromart",
   "file": "works/vasromart/vasromart_04.jpg",
   "days": [
-   4
+   3
   ],
   "source": "telegram:118687"
  },
