@@ -362,7 +362,9 @@
     if (!f) return '';
     const links = (f.links || []).map(l => `<a href="${esc(l.url)}" target="_blank" rel="noopener">${esc(l.label)}</a>`).join('');
     return `<div class="feature">
-      ${f.image ? (f.imageUrl
+      ${f.video ? (() => { const v = `<video class="feature__img feature__img--video" src="${esc(f.video)}"${f.image ? ` poster="${esc(f.image)}"` : ''} autoplay muted loop playsinline preload="metadata"></video>`;
+          return f.imageUrl ? `<a class="feature__imglink" href="${esc(f.imageUrl)}" target="_blank" rel="noopener">${v}</a>` : v; })()
+      : f.image ? (f.imageUrl
         ? `<a class="feature__imglink" href="${esc(f.imageUrl)}" target="_blank" rel="noopener"><img class="feature__img" src="${esc(f.image)}" alt="" loading="lazy"></a>`
         : `<img class="feature__img" src="${esc(f.image)}" alt="" loading="lazy">`) : ''}
       <div class="feature__body"><div class="feature__text">${md(f.text || '')}</div>

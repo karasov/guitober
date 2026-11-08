@@ -224,6 +224,16 @@
   }
  },
  {
+  "id": "dismalrip",
+  "name": "DISMAL",
+  "telegram": "dismalrip",
+  "avatar": "content/avatars/dismalrip.jpg",
+  "link": {
+   "label": "Портфолио",
+   "url": ""
+  }
+ },
+ {
   "id": "drawavi",
   "name": "Pavel",
   "telegram": "drawavi",
@@ -355,6 +365,16 @@
   }
  },
  {
+  "id": "igor_bogaturev",
+  "name": "Igor Bogatyrev",
+  "telegram": "igor_bogaturev",
+  "avatar": null,
+  "link": {
+   "label": "Портфолио",
+   "url": ""
+  }
+ },
+ {
   "id": "irene_vas17",
   "name": "Iren",
   "telegram": "irene_vas17",
@@ -415,6 +435,16 @@
   }
  },
  {
+  "id": "kgbmafia",
+  "name": "Лариса Исаева",
+  "telegram": "Kgbmafia",
+  "avatar": "content/avatars/kgbmafia.jpg",
+  "link": {
+   "label": "Портфолио",
+   "url": ""
+  }
+ },
+ {
   "id": "kirasayko",
   "name": "Kira Sayko",
   "telegram": "kirasayko",
@@ -422,6 +452,16 @@
   "link": {
    "label": "Сайт",
    "url": "https://kirasayko.com/"
+  }
+ },
+ {
+  "id": "komarovman",
+  "name": "Alexey Komarov",
+  "telegram": "komarovman",
+  "avatar": "content/avatars/komarovman.jpg",
+  "link": {
+   "label": "Портфолио",
+   "url": ""
   }
  },
  {

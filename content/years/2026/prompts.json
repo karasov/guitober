@@ -81,152 +81,170 @@
   },
   {
     "day": 11,
-    "title": "Transformers",
+    "title": "Трансформеры",
     "titleEn": "TRANSFORMERS",
-    "text": null,
-    "image": null
+    "text": "prompts/11.md",
+    "image": "prompts/11.jpg",
+    "source": "telegram:119050"
   },
   {
     "day": 12,
-    "title": "Barbie",
+    "title": "Барби",
     "titleEn": "BARBIE",
-    "text": null,
-    "image": null
+    "text": "prompts/12.md",
+    "image": "prompts/12.jpg",
+    "source": "telegram:119099"
   },
   {
     "day": 13,
-    "title": "Alien",
+    "title": "Чужой",
     "titleEn": "ALIEN",
-    "text": null,
-    "image": null
+    "text": "prompts/13.md",
+    "image": "prompts/13.jpg",
+    "source": "telegram:119181"
   },
   {
     "day": 14,
-    "title": "Stranger Things",
+    "title": "Очень Странные Дела",
     "titleEn": "STRANGER THINGS",
-    "text": null,
-    "image": null
+    "text": "prompts/14.md",
+    "image": "prompts/14.jpg",
+    "source": "telegram:119252"
   },
   {
     "day": 15,
     "title": "Hello Kitty",
     "titleEn": "HELLO KITTY",
-    "text": null,
-    "image": null
+    "text": "prompts/15.md",
+    "image": "prompts/15.jpg",
+    "source": "telegram:119274"
   },
   {
     "day": 16,
-    "title": "Dungeons & Dragons",
+    "title": "Подземелья и Драконы",
     "titleEn": "DUNGEONS & DRAGONS",
-    "text": null,
-    "image": null
+    "text": "prompts/16.md",
+    "image": "prompts/16.jpg",
+    "source": "telegram:119293"
   },
   {
     "day": 17,
-    "title": "",
-    "titleEn": "",
-    "text": null,
-    "image": null,
-    "secret": true
+    "title": "Лего",
+    "titleEn": "LEGO",
+    "text": "prompts/17.md",
+    "image": "prompts/17.jpg",
+    "source": "telegram:119369"
   },
   {
     "day": 18,
-    "title": "The Jungle Book",
+    "title": "Книга Джунглей",
     "titleEn": "THE JUNGLE BOOK",
-    "text": null,
-    "image": null
+    "text": "prompts/18.md",
+    "image": "prompts/18.jpg",
+    "source": "telegram:119401"
   },
   {
     "day": 19,
-    "title": "South Park",
+    "title": "Южный Парк",
     "titleEn": "SOUTH PARK",
-    "text": null,
-    "image": null
+    "text": "prompts/19.md",
+    "image": "prompts/19.jpg",
+    "source": "telegram:119506"
   },
   {
     "day": 20,
-    "title": "The Lord of the Rings",
+    "title": "Властелин Колец",
     "titleEn": "THE LORD OF THE RINGS",
-    "text": null,
-    "image": null
+    "text": "prompts/20.md",
+    "image": "prompts/20.jpg",
+    "source": "telegram:119670"
   },
   {
     "day": 21,
-    "title": "Back to the Future",
+    "title": "Назад в будущее",
     "titleEn": "BACK TO THE FUTURE",
-    "text": null,
-    "image": null
+    "text": "prompts/21.md",
+    "image": "prompts/21.jpg",
+    "source": "telegram:119798"
   },
   {
     "day": 22,
-    "title": "Spider-Verse",
+    "title": "Через Вселенные",
     "titleEn": "SPIDER-VERSE",
-    "text": null,
-    "image": null
+    "text": "prompts/22.md",
+    "image": "prompts/22.jpg",
+    "source": "telegram:119841"
   },
   {
     "day": 23,
     "title": "Fallout",
     "titleEn": "FALLOUT",
-    "text": null,
-    "image": null
+    "text": "prompts/23.md",
+    "image": "prompts/23.jpg",
+    "source": "telegram:119907"
   },
   {
     "day": 24,
-    "title": "",
-    "titleEn": "",
-    "text": null,
-    "image": null,
-    "secret": true
+    "title": "Человек-Бензопила",
+    "titleEn": "CHAINSAW MAN",
+    "text": "prompts/24.md",
+    "image": "prompts/24.jpg",
+    "source": "telegram:119923"
   },
   {
     "day": 25,
-    "title": "Batman",
+    "title": "Бэтмен",
     "titleEn": "BATMAN",
-    "text": null,
-    "image": null
+    "text": "prompts/25.md",
+    "image": "prompts/25.jpg",
+    "source": "telegram:119939"
   },
   {
     "day": 26,
-    "title": "The Terminator",
+    "title": "Терминатор",
     "titleEn": "THE TERMINATOR",
-    "text": null,
-    "image": null
+    "text": "prompts/26.md",
+    "image": "prompts/26.jpg",
+    "source": "telegram:119967"
   },
   {
     "day": 27,
-    "title": "TMNT",
-    "titleEn": "TMNT",
-    "text": null,
-    "image": null
+    "title": "Черепашки-Ниндзя",
+    "titleEn": "TEENAGE MUTANT NINJA TURTLES",
+    "text": "prompts/27.md",
+    "image": "prompts/27.jpg",
+    "source": "telegram:120000"
   },
   {
     "day": 28,
-    "title": "Adventure Time",
+    "title": "Время Приключений",
     "titleEn": "ADVENTURE TIME",
-    "text": null,
-    "image": null
+    "text": "prompts/28.md",
+    "image": "prompts/28.jpg",
+    "source": "telegram:120065"
   },
   {
     "day": 29,
-    "title": "The Nightmare Before Christmas",
+    "title": "Кошмар перед Рождеством",
     "titleEn": "THE NIGHTMARE BEFORE CHRISTMAS",
-    "text": null,
-    "image": null
+    "text": "prompts/29.md",
+    "image": "prompts/29.jpg",
+    "source": "telegram:120097"
   },
   {
     "day": 30,
-    "title": "The War of the Worlds",
+    "title": "Война Миров",
     "titleEn": "THE WAR OF THE WORLDS",
-    "text": null,
-    "image": null
+    "text": "prompts/30.md",
+    "image": "prompts/30.jpg",
+    "source": "telegram:120128"
   },
   {
     "day": 31,
-    "title": "",
-    "titleEn": "",
-    "text": null,
-    "image": null,
-    "secret": true
+    "title": "Хэллоуин",
+    "titleEn": "HALLOWEEN",
+    "text": "prompts/31.md",
+    "image": "prompts/31.jpg",
+    "source": "telegram:120143"
   }
 ]

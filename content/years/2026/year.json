@@ -46,5 +46,31 @@
     "nzr99",
     "uxzavr",
     "aelante"
-  ]
+  ],
+  "features": {
+    "uxzavr": {
+      "video": "assets/features/uxzavr-showreel.mp4",
+      "image": "assets/features/uxzavr-showreel.jpg",
+      "imageUrl": "https://www.behance.net/gallery/257892417/Guitober-2026",
+      "text": "Шоурил за все дни GUItober 2026 — все видео собраны в проект на Behance. Заходите, ставьте лайк и оставляйте комментарии!",
+      "links": [
+        {
+          "label": "Смотреть на Behance →",
+          "url": "https://www.behance.net/gallery/257892417/Guitober-2026"
+        }
+      ]
+    },
+    "aelante": {
+      "video": "assets/features/aelante-showreel.mp4",
+      "image": "assets/features/aelante-showreel.jpg",
+      "imageUrl": "https://www.behance.net/gallery/258038805/Guitober2026",
+      "text": "Шоурил и страница проекта по GUItober 2026 на Behance.",
+      "links": [
+        {
+          "label": "Смотреть на Behance →",
+          "url": "https://www.behance.net/gallery/258038805/Guitober2026"
+        }
+      ]
+    }
+  }
 }

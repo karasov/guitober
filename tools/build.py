@@ -86,6 +86,19 @@ def probe(path):
     return w, h
 
 
+HEAVY_BPS = 3_500_000   # above this average bitrate a kept-original video gets a high-quality re-encode
+
+
+def heavy(path):
+    r = subprocess.run(['ffprobe', '-v', 'error', '-show_entries', 'format=duration', '-of', 'csv=p=0', path],
+                       capture_output=True, text=True)
+    try:
+        dur = float(r.stdout.strip())
+    except ValueError:
+        return False
+    return dur > 0 and os.path.getsize(path) * 8 / dur > HEAVY_BPS
+
+
 def do_video(job):
     # temp files live in the system temp dir; results are copied in place
     # (works on folders where deleting/renaming files is not allowed)
@@ -101,6 +114,15 @@ def do_video(job):
                                 '-vf', "scale='trunc(iw/2)*2':'trunc(ih/2)*2',format=yuv420p",
                                 '-c:v', 'libx264', '-preset', 'slow', '-crf', '16',
                                 '-movflags', '+faststart', tmp], check=True)
+            elif heavy(src):
+                # heavy file: re-encode at ORIGINAL resolution, visually lossless (keeps the site under 1 GB)
+                subprocess.run(['ffmpeg', '-y', '-v', 'error', '-i', src, '-map', '0:v:0', '-map', '0:a?',
+                                '-vf', "scale='trunc(iw/2)*2':'trunc(ih/2)*2',format=yuv420p",
+                                '-c:v', 'libx264', '-preset', 'faster', '-crf', '20',
+                                '-c:a', 'aac', '-b:a', '128k', '-movflags', '+faststart', tmp], check=True)
+                if os.path.getsize(tmp) > os.path.getsize(src) * 0.8:   # no real gain → keep the original stream
+                    subprocess.run(['ffmpeg', '-y', '-v', 'error', '-i', src, '-map', '0:v:0', '-map', '0:a?',
+                                    '-c', 'copy', '-movflags', '+faststart', tmp], check=True)
             else:
                 # same streams, only re-wrapped into mp4 (lossless)
                 subprocess.run(['ffmpeg', '-y', '-v', 'error', '-i', src, '-map', '0:v:0', '-map', '0:a?',
@@ -158,6 +180,8 @@ def build(media=True):
         for f in (cfg.get('features') or {}).values():
             if f.get('image'):
                 f['image'] = rel(os.path.join(ydir, f['image']))
+            if f.get('video'):
+                f['video'] = rel(os.path.join(ydir, f['video']))
 
         works = load(os.path.join(ydir, 'works.json'), [])
         used_bases = set()
