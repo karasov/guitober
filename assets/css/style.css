@@ -446,5 +446,6 @@ body.is-locked .editbar { display: none; }
 .feature__links a:hover { border-bottom-color: transparent; }
 @media (max-width: 900px) { .feature { grid-template-columns: 1fr; } .feature__img { width: 100%; height: auto; } }
 .feature__img--video { height: clamp(160px, 15vw, 240px); border-radius: 14px; background: #000; }
+@media (max-width: 900px) { .feature__img--video { width: 100%; height: auto; } }
 .feature__imglink { display: block; transition: opacity .2s; }
 .feature__imglink:hover { opacity: .85; }
